@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+    <suite name="Regression_Suit">
+  
+   <test name="Login_Page">
+      <classes>
+      <class name="page_package.LoginPage"/>
+    </classes>
+    </test> <!-- Test -->
+
+<test name="Test2">
+      <classes>
+      <class name="page_package.Reservation"/>
+    </classes>
+    </test> <!-- Test -->
+  
+    </suite> <!-- Suite -->
+    
+    
